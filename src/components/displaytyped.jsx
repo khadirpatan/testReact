@@ -10,8 +10,7 @@ class Dispalytyped extends Component {
         <div className="row">
           Type Here :
           <span>
-            <input
-              type="text"
+            <input type="text"
               value={this.state.inputValue}
               onChange={e => {
                 this.updateValue(e);
